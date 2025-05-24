@@ -88,6 +88,7 @@
                         {
                             happinessVal = 10;
                         }
+
                         if (hungerVal >= 9)
                         {
                             Console.WriteLine($"\n{petName} is too hungry to play! Please feed them.");
@@ -115,7 +116,6 @@
                             healthVal = 10;
                         }
                         happinessVal-=1;
-                       
                         break;
                     case "4":
                         Console.Write($"\n{petName}'s Status:\n-Hunger:{hungerVal}\n-Happiness:{happinessVal}\n-Health:{healthVal}\n");
